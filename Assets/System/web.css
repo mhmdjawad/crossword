@@ -1,0 +1,44 @@
+@import url('../Libraries/FontAwesome/fa.css');
+@import url('../Libraries/Bootstrap/css/bootstrap-4.3.1.min.css');
+@import url('../Libraries/JQuery/jquery-ui.min-1.13-ui-darkness.css');
+:root{
+    --main-color: black;
+    --secondary-color: white;
+}
+*{
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar-track{
+    background-color: #0db2b2;
+    border-radius: 0px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 0px;
+    background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(9, 32, 70)),
+    color-stop(0.72, rgb(9, 32, 70)),
+    color-stop(0.86, rgb(9, 32, 70)));
+}
+
+.navbar{
+    background: var(--main-color) !important;
+}
+.canvas_container .t td{
+    border:1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.canvas_container .t{
+    display:inline-block;
+    width:auto;
+    margin:10px 10px 10px 10px;
+}
